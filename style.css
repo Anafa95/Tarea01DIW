@@ -25,3 +25,20 @@ html{
     background-color: rgb(255, 255, 255,0.6) ;
     border-radius: 20px;
 }
+
+.receta-img{
+    width: auto;
+    height: 300px; 
+}
+
+
+
+
+
+
+footer{
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    gap: 20px;
+}
