@@ -1,0 +1,27 @@
+html{
+    background-image: url(assets/imgs/kitchen-and-cooking-background.png) ;
+    background-attachment: fixed;
+}
+
+.encabezado{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.encabezado h1 {
+    font-family: sans-serif;
+    text-shadow: 5px 5px 10px rgba(0, 88, 99, 0.8);
+    color: #005863;    
+    background-color: rgb(255, 255, 255,0.6) ;
+    border-radius: 20px;
+}
+
+.logo-img{
+    width: 200px;
+    height: auto;    
+    background-color: rgb(255, 255, 255,0.6) ;
+    border-radius: 20px;
+}
