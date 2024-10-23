@@ -26,7 +26,7 @@ li{
 }
 
 .logo-img{
-    width: 200px;
+    width: 50px;
     height: auto;    
     background-color: rgb(255, 255, 255,0.6) ;
     border-radius: 20px;
@@ -34,9 +34,15 @@ li{
 
 .contenedor{
     display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .indice{
+    background-color: rgba(0, 88, 99, 0.9);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
     align-self: flex-start;
 }
 
@@ -45,15 +51,27 @@ li{
     color: inherit;
 }
 
-.receta{
-    background-color: rgba(0, 88, 99, 0.4);
+.recetario{
     display: flex;
     flex-direction: column;
+    gap: 10px;
+}
+
+.receta{
+    background-color: rgba(0, 88, 99, 0.9);
+    border-radius: 20px;
+    align-self: center;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .receta img{
     width: max-content;
     height: 300px; 
+    border-radius: 20px;
+    margin-top: 20px;
 }
 
 .receta-tablaNutricional table{
@@ -73,8 +91,16 @@ li{
     font-weight: bold;
 }
 
+aside{
+    background-color: rgba(0, 88, 99, 0.9);
+    margin: 10px;
+    border-radius: 20px;
+    align-self: flex-start;
+}
 
-
+aside h3{
+    text-align: center;
+}
 
 
 aside a{
@@ -82,12 +108,17 @@ aside a{
     color: inherit;
 }
 
+aside a:hover {
+    text-decoration: underline;
+    color: #630b00;
+}
+
 
 
 footer{
     display: flex;
     background-color: white;
-    justify-content: center;
+    justify-content: space-evenly;
     gap: 20px;
     flex-wrap: wrap;
     align-items: center;
